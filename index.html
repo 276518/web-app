@@ -17,6 +17,9 @@
         <meta name="apple-mobile-web-app-title" content="GBS Schedules">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="navy">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -26,12 +29,28 @@
         <script src="scripts.js" async defer></script>
 
         <section>
-            <img class="main" src="images/gbs.png">
+            <a href="index.html"><img class="logo" src="images/gbs.png" alt="Button image"></img></a>
+            <h2>Daily Schedules</h2>
+            <script src="myScripts.js"></script>
+    </body>
+    <body onload="startTime()">
+            <div id="clock"></div>
             <div>
-                <btn class="regular">
-                    <h3>Regular</h3>
-                </btn>
+                <a href="reg.html"><button class="regular">
+                    <h3>Regular Schedule</h3>
+                </button></a>
+                <a href="late.html"><button class="late">
+                    <h3>Late Arrival</h3>
+                </button></a>
             </div>
+            <div>
+                <a href="two.html"><button class="two">
+                    <h3>Two Assembly</h3>
+                </button></a>
+                <a href="three.html"><button class="three">
+                    <h3>Three Assembly</h3>
+                </button></a>
+                </div>
         </section>
     </body>
 </html>
