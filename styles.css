@@ -11,13 +11,13 @@ body{
     border-width: 2px;
     border-radius:0%;
     background-color: #fff;
-    border-color:#000000;
+    border-color:#0d3795;
 }
 
 h2,.days,.other-days{
     font-family:"Kalam", cursive;
     font-weight:700;
-    color:rgb(0, 19, 101);
+    color:#0d3795;
 }
 h2{
     font-size:50px;
@@ -34,8 +34,8 @@ h2{
     max-width: 300px;
 }
 .days,.other-days{
-    color: #000000;
-    border: 2px solid rgb(0, 19, 101);
+    color: #0d3795;
+    border: 2px solid #0d3795;
     border-radius: 0px;
     display: inline-block;
     font-size: 14px;
@@ -47,12 +47,12 @@ h2{
     vertical-align:center;
 }
 .days:hover {
-    box-shadow: inset 0 100px 0 0 rgb(0, 19, 101);
+    box-shadow: inset 0 100px 0 0 #0d3795;
     border-color:white;
     color:white;
   }
 .other-days:hover{
-    box-shadow: inset 0 100px 0 0 rgb(255, 208, 0);
+    box-shadow: inset 0 100px 0 0 #ffc530;
     border-color:white;
     color:white;
 }
@@ -72,17 +72,17 @@ h2{
     border-radius:0%;
     font-family:"Kalam", cursive;
     width: 200px;
-    background:rgb(0, 19, 101);
+    background:#0d3795;
     color:white;
     border-color:white;
 }
 .color:hover {
-    box-shadow: inset 0 100px 0 0 rgb(255, 208, 0);
+    box-shadow: inset 0 100px 0 0 #ffc530;
     border-color:rgb(0, 19, 101);
     color:rgb(0, 19, 101);
 }
 nav{
-    background:rgb(0, 19, 101);
+    background:#0d3795;
     position:fixed;
     bottom:0;
     left:0;
@@ -92,9 +92,9 @@ nav{
 }
 .nav-btn{
     height:30px;
-    margin:10px;
+    margin-top:12px;
     font-size:7px;
-    background:rgb(0, 19, 101);
+    background:#0d3795;
     border-color:white;
     color:white;
 }
